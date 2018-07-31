@@ -1,0 +1,45 @@
+body,div,ul,li{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "\5b8b\4f53", "Arial Narrow";
+}
+ul,li{
+    list-style: none;
+}
+#tab{
+    margin: 10px auto;
+    width: 500px;
+}
+#tab ul{
+    position: relative;
+
+}
+#tab ul li{
+    float: left;
+    margin-right: 10px;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+}
+#tab ul li.select{
+    background: -webkit-linear-gradient(top left,red,greenyellow,deepskyblue);
+}
+#tab ul div{
+    clear: both;
+    position: relative;
+    top:-1px;
+    width: 500px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border: 1px solid #dddddd;
+    display: none;
+}
+#tab ul div.select{
+    display: block;
+}
+
