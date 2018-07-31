@@ -1,0 +1,31 @@
+body,div,ul,li{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial;
+}
+ul,li{
+    list-style: none;
+}
+#list{
+    margin: 20px auto;
+    padding: 10px;
+    width: 500px;
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+
+}
+#list li{
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.c1{
+   background:darkgray;
+}
+.c2{
+    background: lightblue;
+}
+.c3{
+    background: aquamarine;
+}
