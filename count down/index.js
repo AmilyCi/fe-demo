@@ -19,5 +19,5 @@ function getSpanTime(){
         return zero(hour) + ":" + zero(minute) + ":" + zero(second);
 }
 function zero(value){
-   return value < 0? "0" + value : value;
+   return value < 10? "0" + value : value;
 }
