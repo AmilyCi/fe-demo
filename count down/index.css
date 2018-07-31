@@ -1,0 +1,15 @@
+body,div{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-family: "\5b8b\4f53","Arial Narrow";
+}
+#box{
+    margin: 10px auto;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    width: 800px;
+    border: 1px solid #ddd;
+    background: -webkit-linear-gradient(top left,yellow,orange,greenyellow,green,darkgreen);
+}
