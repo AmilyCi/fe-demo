@@ -1,0 +1,28 @@
+html,body,div,span{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica, sans-serif;
+}
+#box{
+    margin: 20px auto;
+    padding: 0 10px;
+    width: 1000px;
+    height: 35px;
+    line-height: 35px;
+    background: pink;
+    border: 1px dashed cornflowerblue;
+}
+#wrap{
+    white-space: nowrap;
+    height: 35px;
+    overflow: hidden;
+}
+#wrap span{
+    color: red;
+    font-weight: bolder;
+    font-size: 16px;
+}
+#wrap div{
+    display: inline-block;
+}
