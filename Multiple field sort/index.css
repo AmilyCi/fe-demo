@@ -1,0 +1,39 @@
+@charset "utf-8";
+html,body,div,table,thead,tr,th,tbody{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    -webkit-user-select: none;
+}
+.box{
+    margin: 20px auto;
+    padding: 20px;
+    width: 400px;
+    border: 1px solid #008000;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 0 #DBEEBD;
+}
+.box thead{
+    background: green;
+    color:white;
+}
+.box thead tr{
+    height:35px;
+}
+.box thead th{
+    width: 100px;
+}
+.box thead th.cursor{
+    cursor: pointer;
+}
+.box tbody tr{
+    height: 30px;
+}
+.box tbody td{
+    width: 100px;
+    text-align: center;
+}
+.box tbody tr.bg{
+    background: lightgreen;
+}
